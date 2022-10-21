@@ -1,0 +1,86 @@
+!SESSION 2022-10-20 20:30:43.551 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\Documents\CESE\RTOSI\RTOS1
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-10-20 20:30:53.823
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-10-20 20:30:53.971
+!MESSAGE Log4j initialized with config file D:\Documents\CESE\RTOSI\RTOS1\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-10-20 20:31:02.631
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-20 20:32:12.782
+!MESSAGE Indexed 'Practica1' (102 sources, 213 headers) in 28,9 sec: 29.899 declarations; 94.667 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0,12 %)
+!SESSION 2022-10-21 10:38:19.284 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-10-21 10:38:33.284
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-10-21 10:38:33.401
+!MESSAGE Log4j initialized with config file D:\Documents\CESE\RTOSI\RTOS1\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-10-21 10:38:47.087
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-21 11:10:05.134
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-21 11:10:05.134
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-21 11:10:05.134
+!MESSAGE D:\Documents\CESE\RTOSI\RTOS1\Practica1 overlaps the location of another project: 'Practica1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-21 11:10:05.134
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-21 11:10:10.234
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-21 11:10:10.234
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-21 11:10:10.234
+!MESSAGE D:\Documents\CESE\RTOSI\RTOS1\Practica1 overlaps the location of another project: 'Practica1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-21 11:10:10.234
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-21 11:10:14.734
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-21 11:10:14.734
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-21 11:10:14.734
+!MESSAGE D:\Documents\CESE\RTOSI\RTOS1\Practica1 overlaps the location of another project: 'Practica1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-21 11:10:14.734
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-21 11:10:28.551
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-21 11:10:28.551
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-21 11:10:28.551
+!MESSAGE D:\Documents\CESE\RTOSI\RTOS1\Practica1 overlaps the location of another project: 'Practica1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-21 11:10:28.551
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-21 11:10:29.217
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-21 11:10:29.217
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-21 11:10:29.217
+!MESSAGE D:\Documents\CESE\RTOSI\RTOS1\Practica1 overlaps the location of another project: 'Practica1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-21 11:10:29.217
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-21 11:10:35.101
+!MESSAGE Indexed 'Practica1.1' (102 sources, 212 headers) in 10,8 sec: 29.874 declarations; 90.920 references; 9 unresolved inclusions; 1.836 syntax errors; 1.817 unresolved names (1,5 %)

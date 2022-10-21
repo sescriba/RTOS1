@@ -1,0 +1,127 @@
+11:25:48 **** Incremental Build of configuration Debug for project Practica1.1 ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F429ZITx -DSTM32F4 -DNUCLEO_F429ZI -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Inc -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/CMSIS/Include" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/BSP/STM32F4xx_Nucleo_144" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/Core/Inc" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/API" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/API/inc" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/API/src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Practica1.1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Documents\CESE\RTOSI\RTOS1\Practica1.1\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Practica1.1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Practica1.1.elf
+ 
+arm-none-eabi-size   Practica1.1.elf 
+arm-none-eabi-objdump -h -S  Practica1.1.elf  > "Practica1.1.list"
+   text	   data	    bss	    dec	    hex	filename
+   9596	     36	   1684	  11316	   2c34	Practica1.1.elf
+Finished building: default.size.stdout
+ 
+Finished building: Practica1.1.list
+ 
+11:25:59 **** Incremental Build of configuration Debug for project Practica1.1 ****
+make -j8 all 
+arm-none-eabi-size   Practica1.1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9596	     36	   1684	  11316	   2c34	Practica1.1.elf
+Finished building: default.size.stdout
+ 
+11:26:51 **** Incremental Build of configuration Debug for project Practica1.1 ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F429ZITx -DSTM32F4 -DNUCLEO_F429ZI -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Inc -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/CMSIS/Include" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/BSP/STM32F4xx_Nucleo_144" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/Core/Inc" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/API" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/API/inc" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/API/src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Practica1.1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Documents\CESE\RTOSI\RTOS1\Practica1.1\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Practica1.1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Practica1.1.elf
+ 
+arm-none-eabi-size   Practica1.1.elf 
+arm-none-eabi-objdump -h -S  Practica1.1.elf  > "Practica1.1.list"
+   text	   data	    bss	    dec	    hex	filename
+   9552	     36	   1684	  11272	   2c08	Practica1.1.elf
+Finished building: default.size.stdout
+ 
+Finished building: Practica1.1.list
+ 
+11:28:33 **** Incremental Build of configuration Debug for project Practica1.1 ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F429ZITx -DSTM32F4 -DNUCLEO_F429ZI -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Inc -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/CMSIS/Include" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/BSP/STM32F4xx_Nucleo_144" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/Core/Inc" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/API" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/API/inc" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/API/src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Practica1.1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Documents\CESE\RTOSI\RTOS1\Practica1.1\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Practica1.1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Practica1.1.elf
+ 
+arm-none-eabi-size   Practica1.1.elf 
+arm-none-eabi-objdump -h -S  Practica1.1.elf  > "Practica1.1.list"
+   text	   data	    bss	    dec	    hex	filename
+   9564	     36	   1684	  11284	   2c14	Practica1.1.elf
+Finished building: default.size.stdout
+ 
+Finished building: Practica1.1.list
+ 
+11:29:39 **** Incremental Build of configuration Debug for project Practica1.1 ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F429ZITx -DSTM32F4 -DNUCLEO_F429ZI -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Inc -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/CMSIS/Include" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/BSP/STM32F4xx_Nucleo_144" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/Core/Inc" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/API" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/API/inc" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/API/src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Practica1.1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Documents\CESE\RTOSI\RTOS1\Practica1.1\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Practica1.1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Practica1.1.elf
+ 
+arm-none-eabi-size   Practica1.1.elf 
+arm-none-eabi-objdump -h -S  Practica1.1.elf  > "Practica1.1.list"
+   text	   data	    bss	    dec	    hex	filename
+   9560	     36	   1684	  11280	   2c10	Practica1.1.elf
+Finished building: default.size.stdout
+ 
+Finished building: Practica1.1.list
+ 
+11:31:01 **** Incremental Build of configuration Debug for project Practica1.1 ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F429ZITx -DSTM32F4 -DNUCLEO_F429ZI -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Inc -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/CMSIS/Include" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/BSP/STM32F4xx_Nucleo_144" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/Core/Inc" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/API" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/API/inc" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/API/src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:130:13: error: 'delay_led_botton' undeclared (first use in this function); did you mean 'delay_led_button'?
+  130 |  delayInit(&delay_led_botton, 0);
+      |             ^~~~~~~~~~~~~~~~
+      |             delay_led_button
+../Src/main.c:130:13: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Src/subdir.mk:19: Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+11:31:11 **** Incremental Build of configuration Debug for project Practica1.1 ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F429ZITx -DSTM32F4 -DNUCLEO_F429ZI -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Inc -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/CMSIS/Include" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/BSP/STM32F4xx_Nucleo_144" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/Core/Inc" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/API" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/API/inc" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/API/src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Practica1.1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Documents\CESE\RTOSI\RTOS1\Practica1.1\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Practica1.1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Practica1.1.elf
+ 
+arm-none-eabi-size   Practica1.1.elf 
+arm-none-eabi-objdump -h -S  Practica1.1.elf  > "Practica1.1.list"
+   text	   data	    bss	    dec	    hex	filename
+   9572	     36	   1684	  11292	   2c1c	Practica1.1.elf
+Finished building: default.size.stdout
+ 
+Finished building: Practica1.1.list
+ 
+11:31:47 **** Incremental Build of configuration Debug for project Practica1.1 ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F429ZITx -DSTM32F4 -DNUCLEO_F429ZI -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Inc -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/CMSIS/Include" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/BSP/STM32F4xx_Nucleo_144" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/Core/Inc" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/API" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/API/inc" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/API/src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Practica1.1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Documents\CESE\RTOSI\RTOS1\Practica1.1\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Practica1.1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Practica1.1.elf
+ 
+arm-none-eabi-size   Practica1.1.elf 
+arm-none-eabi-objdump -h -S  Practica1.1.elf  > "Practica1.1.list"
+   text	   data	    bss	    dec	    hex	filename
+   9572	     36	   1684	  11292	   2c1c	Practica1.1.elf
+Finished building: default.size.stdout
+ 
+Finished building: Practica1.1.list
+ 
+11:34:02 **** Incremental Build of configuration Debug for project Practica1.1 ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F429ZITx -DSTM32F4 -DNUCLEO_F429ZI -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Inc -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/CMSIS/Include" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/BSP/STM32F4xx_Nucleo_144" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/Core/Inc" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/API" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/API/inc" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/API/src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c: In function 'buttonReleased':
+../Src/main.c:63:14: error: 'delay_led_' undeclared (first use in this function); did you mean 'delay_led'?
+   63 |  delayWrite(&delay_led_, 500-counter);
+      |              ^~~~~~~~~~
+      |              delay_led
+../Src/main.c:63:14: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Src/subdir.mk:19: Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+11:34:09 **** Incremental Build of configuration Debug for project Practica1.1 ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F429ZITx -DSTM32F4 -DNUCLEO_F429ZI -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Inc -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/STM32F4xx_HAL_Driver/Inc" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/CMSIS/Include" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/BSP/STM32F4xx_Nucleo_144" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/Core/Inc" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/API" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/API/inc" -I"D:/Documents/CESE/RTOSI/RTOS1/Practica1.1/Drivers/API/src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Practica1.1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Documents\CESE\RTOSI\RTOS1\Practica1.1\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Practica1.1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Practica1.1.elf
+ 
+arm-none-eabi-size   Practica1.1.elf 
+arm-none-eabi-objdump -h -S  Practica1.1.elf  > "Practica1.1.list"
+   text	   data	    bss	    dec	    hex	filename
+   9592	     36	   1684	  11312	   2c30	Practica1.1.elf
+Finished building: default.size.stdout
+ 
+Finished building: Practica1.1.list
+ 
