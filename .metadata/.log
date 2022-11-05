@@ -84,3 +84,1590 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2022-10-21 11:10:35.101
 !MESSAGE Indexed 'Practica1.1' (102 sources, 212 headers) in 10,8 sec: 29.874 declarations; 90.920 references; 9 unresolved inclusions; 1.836 syntax errors; 1.817 unresolved names (1,5 %)
+!SESSION 2022-10-30 18:45:04.494 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\Documents\CESE\RTOS1\RTOS1
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-10-30 18:45:12.395
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-10-30 18:45:12.495
+!MESSAGE Log4j initialized with config file D:\Documents\CESE\RTOS1\RTOS1\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-10-30 18:45:28.595
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-30 18:46:46.262
+!MESSAGE Indexed 'Practica2' (41 sources, 146 headers) in 7,33 sec: 14.632 declarations; 77.420 references; 2 unresolved inclusions; 152 syntax errors; 153 unresolved names (0,17 %)
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:03:13.645
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:03:13.645
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:03:13.645
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:03:13.645
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:03:37.111
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:03:37.111
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:03:37.111
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:03:37.111
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:04:22.445
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:04:22.445
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:04:22.445
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:04:22.445
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:05:15.545
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:05:15.545
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:05:15.545
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:05:15.545
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:07:26.695
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:07:26.695
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:07:26.695
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:07:26.695
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:07:54.611
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:07:54.611
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:07:54.611
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:07:54.611
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:09:11.330
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:09:11.330
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:09:11.330
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:09:11.607
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:09:27.028
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:09:27.028
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:09:27.028
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:09:27.028
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:09:37.828
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:09:37.828
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:09:37.828
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:09:37.828
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:10:00.645
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:10:00.645
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:10:00.645
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:10:00.645
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:10:48.878
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:10:48.878
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:10:48.878
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:10:48.878
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:11:35.061
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:11:35.061
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:11:35.061
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:11:35.061
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:11:47.095
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:11:47.095
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:11:47.095
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:11:47.095
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:13:11.562
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:13:11.562
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:13:11.562
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:13:11.562
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:14:51.278
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:14:51.278
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:14:51.278
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:14:51.278
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:16:46.544
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:16:46.545
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:16:46.545
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:16:46.561
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:17:15.595
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:17:15.595
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:17:15.595
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:17:15.595
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:17:21.712
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:17:21.712
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:17:21.712
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:17:21.712
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:17:21.848
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:17:21.848
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:17:21.848
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:17:21.849
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:19:21.654
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:19:21.654
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:19:21.654
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:19:21.654
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:19:34.206
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:19:34.206
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:19:34.206
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:19:34.206
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:19:52.895
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:19:52.895
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:19:52.895
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:19:52.895
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:19:57.628
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:19:57.628
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:19:57.628
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:19:57.628
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:19:57.728
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:19:57.728
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:19:57.728
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:19:57.728
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:20:30.995
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:20:30.995
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:20:30.995
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:20:30.995
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:20:31.160
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:20:31.160
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:20:31.160
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:20:31.161
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:23:58.978
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:23:58.978
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:23:58.978
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:23:58.978
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:23:59.178
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:23:59.178
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:23:59.178
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:23:59.178
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:26:28.608
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:26:28.608
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:26:28.608
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:26:28.608
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:26:40.161
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:26:40.161
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:26:40.161
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:26:40.161
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:26:40.345
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:26:40.345
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:26:40.345
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:26:40.345
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:27:01.562
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:27:01.562
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:27:01.562
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:27:01.562
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:27:01.845
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:27:01.845
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:27:01.845
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:27:01.845
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:27:29.561
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:27:29.561
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:27:29.561
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:27:29.561
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:27:43.578
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:27:43.578
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:27:43.578
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:27:43.578
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:27:55.578
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:27:55.578
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:27:55.578
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:27:55.578
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:28:05.728
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:28:05.728
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:28:05.728
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:28:05.728
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:28:05.928
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:28:05.928
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:28:05.928
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:28:05.928
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:29:22.038
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:29:22.038
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:29:22.038
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:29:22.039
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:29:25.564
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:29:25.564
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:29:25.564
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:29:25.565
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:29:25.736
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:29:25.736
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:29:25.736
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:29:25.737
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:31:07.180
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:31:07.180
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:31:07.180
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:31:07.180
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:31:25.611
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:31:25.611
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:31:25.611
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:31:25.611
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:31:37.145
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:31:37.145
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:31:37.145
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:31:37.146
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:33:03.344
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:33:03.344
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:33:03.344
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:33:03.344
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-10-30 19:33:42.761
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-10-30 19:33:42.761
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-10-30 19:33:42.761
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-10-30 19:33:42.761
+!MESSAGE Project is null
+!SESSION 2022-11-01 19:46:28.078 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-11-01 19:46:43.419
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-11-01 19:46:43.567
+!MESSAGE Log4j initialized with config file D:\Documents\CESE\RTOS1\RTOS1\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-11-01 19:46:57.851
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 19:52:41.205
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 19:52:41.205
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 19:52:41.206
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 19:52:41.206
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 19:52:52.920
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 19:52:52.920
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 19:52:52.920
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 19:52:52.921
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 19:55:44.501
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 19:55:44.501
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 19:55:44.501
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 19:55:44.501
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 19:55:44.836
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 19:55:44.836
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 19:55:44.836
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 19:55:44.836
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 19:56:28.654
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 19:56:28.654
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 19:56:28.654
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 19:56:28.654
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 19:56:28.868
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 19:56:28.868
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 19:56:28.868
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 19:56:28.868
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:01:17.823
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:01:17.823
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:01:17.823
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:01:17.823
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:02:59.776
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:02:59.776
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:02:59.776
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:02:59.777
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:03:04.424
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:03:04.424
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:03:04.424
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:03:04.425
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:03:04.768
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:03:04.769
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:03:04.769
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:03:04.769
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:04:37.798
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:04:37.798
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:04:37.798
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:04:37.800
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:04:38.015
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:04:38.015
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:04:38.015
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:04:38.016
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:05:44.735
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:05:44.735
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:05:44.735
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:05:44.735
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:07:45.923
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:07:45.923
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:07:45.923
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:07:45.924
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:07:58.321
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:07:58.321
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:07:58.321
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:07:58.322
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:07:58.503
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:07:58.503
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:07:58.503
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:07:58.504
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:08:37.078
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:08:37.078
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:08:37.078
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:08:37.080
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:08:37.401
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:08:37.401
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:08:37.401
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:08:37.401
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2022-11-01 20:08:46.464
+!MESSAGE Error in final launch sequence:
+
+Setup exceptions
+!STACK 1
+org.eclipse.core.runtime.CoreException: Setup exceptions
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:328)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 com.st.stm32cube.ide.mcu.debug.launch 4 0 2022-11-01 20:08:46.465
+!MESSAGE Setup exceptions
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:08:50.726
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:08:50.726
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:08:50.726
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:08:50.727
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:08:51.066
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:08:51.066
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:08:51.066
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:08:51.066
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:10:06.604
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:10:06.604
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:10:06.604
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:10:06.604
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:10:06.806
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:10:06.806
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:10:06.806
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:10:06.807
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:10:23.918
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:10:23.918
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:10:23.918
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:10:23.918
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:10:24.429
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:10:24.430
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:10:24.430
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:10:24.430
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:11:07.944
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:11:07.945
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:11:07.945
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:11:07.945
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:15:43.356
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:15:43.356
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:15:43.356
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:15:43.357
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:15:43.542
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:15:43.542
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:15:43.542
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:15:43.542
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:17:16.223
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:17:16.223
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:17:16.223
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:17:16.223
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:17:16.551
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:17:16.551
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:17:16.551
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:17:16.552
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:21:17.546
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:21:17.546
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:21:17.546
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:21:17.547
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:21:41.096
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:21:41.096
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:21:41.096
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:21:41.097
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:22:08.909
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:22:08.909
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:22:08.909
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:22:08.909
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:22:23.322
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:22:23.322
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:22:23.322
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:22:23.322
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:23:42.713
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:23:42.713
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:23:42.713
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:23:42.713
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:23:53.910
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:23:53.910
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:23:53.910
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:23:53.911
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:24:02.173
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:24:02.174
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:24:02.174
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:24:02.176
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:24:02.329
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:24:02.329
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:24:02.329
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:24:02.329
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:25:53.331
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:25:53.331
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:25:53.331
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:25:53.331
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:25:56.585
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:25:56.585
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:25:56.585
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:25:56.586
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:25:56.758
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:25:56.758
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:25:56.758
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:25:56.759
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:44:51.673
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:44:51.673
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:44:51.673
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:44:51.674
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:45:08.739
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:45:08.739
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:45:08.739
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:45:08.739
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:45:12.939
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:45:12.939
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:45:12.939
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:45:12.939
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:45:13.068
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:45:13.068
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:45:13.068
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:45:13.069
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:46:06.451
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:46:06.451
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:46:06.451
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:46:06.451
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:46:06.715
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:46:06.715
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:46:06.715
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:46:06.716
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:49:58.959
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:49:58.960
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:49:58.960
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:49:58.962
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:49:59.071
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:49:59.071
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:49:59.071
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:49:59.072
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:53:06.163
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:53:06.163
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:53:06.163
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:53:06.164
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:53:10.297
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:53:10.298
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:53:10.298
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:53:10.298
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:53:10.599
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:53:10.599
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:53:10.599
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:53:10.599
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:53:30.681
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:53:30.681
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:53:30.681
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:53:30.681
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:53:30.997
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:53:30.997
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:53:30.997
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:53:30.997
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2022-11-01 20:53:40.291
+!MESSAGE Error in final launch sequence:
+
+Setup exceptions
+!STACK 1
+org.eclipse.core.runtime.CoreException: Setup exceptions
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:328)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 com.st.stm32cube.ide.mcu.debug.launch 4 0 2022-11-01 20:53:40.291
+!MESSAGE Setup exceptions
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:53:43.202
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:53:43.202
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:53:43.202
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:53:43.202
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:53:43.496
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:53:43.496
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:53:43.496
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:53:43.496
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:56:57.210
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:56:57.211
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:56:57.211
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:56:57.211
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 20:56:57.474
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 20:56:57.474
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 20:56:57.474
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 20:56:57.475
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 21:00:50.140
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 21:00:50.140
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 21:00:50.140
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 21:00:50.141
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 21:00:50.581
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 21:00:50.581
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 21:00:50.581
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 21:00:50.581
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 21:07:25.381
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 21:07:25.381
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 21:07:25.381
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 21:07:25.381
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 21:07:31.615
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 21:07:31.615
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 21:07:31.615
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 21:07:31.616
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 21:07:31.805
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 21:07:31.805
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 21:07:31.805
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 21:07:31.805
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 21:09:11.251
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 21:09:11.251
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 21:09:11.251
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 21:09:11.251
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 21:09:13.795
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 21:09:13.795
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 21:09:13.795
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 21:09:13.796
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-01 21:09:15.352
+!MESSAGE Indexed 'Practica3' (41 sources, 146 headers) in 4,63 sec: 14.636 declarations; 77.441 references; 2 unresolved inclusions; 152 syntax errors; 153 unresolved names (0,17 %)
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 21:09:22.536
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 21:09:22.536
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 21:09:22.536
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 21:09:22.537
+!MESSAGE Project is null
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2022-11-01 21:09:27.380
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 21:09:35.866
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 21:09:35.866
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 21:09:35.866
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 21:09:35.867
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 21:09:40.973
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 21:09:40.973
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 21:09:40.973
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 21:09:40.973
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 21:09:41.105
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 21:09:41.106
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 21:09:41.106
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 21:09:41.106
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 21:10:07.272
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 21:10:07.272
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 21:10:07.272
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 21:10:07.272
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 21:10:07.629
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 21:10:07.629
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 21:10:07.629
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 21:10:07.629
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 21:11:35.343
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 21:11:35.343
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 21:11:35.343
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 21:11:35.343
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 21:11:35.443
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 21:11:35.443
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 21:11:35.443
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 21:11:35.444
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 21:12:28.646
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 21:12:28.646
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 21:12:28.646
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 21:12:28.646
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 21:12:46.010
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 21:12:46.010
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 21:12:46.010
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 21:12:46.010
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 21:12:46.422
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 21:12:46.422
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 21:12:46.422
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 21:12:46.422
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 21:14:28.303
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 21:14:28.303
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 21:14:28.303
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 21:14:28.304
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 21:14:52.233
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 21:14:52.233
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 21:14:52.233
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 21:14:52.234
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 21:16:25.097
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 21:16:25.098
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 21:16:25.098
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 21:16:25.098
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 21:18:32.592
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 21:18:32.592
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 21:18:32.592
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 21:18:32.593
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 21:18:36.586
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 21:18:36.586
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 21:18:36.586
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 21:18:36.587
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 21:18:36.795
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 21:18:36.795
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 21:18:36.795
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 21:18:36.795
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-01 21:20:40.768
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-01 21:20:40.768
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-01 21:20:40.768
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica2 overlaps the location of another project: 'Practica2'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-01 21:20:40.768
+!MESSAGE Project is null
+!SESSION 2022-11-03 22:02:49.140 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-11-03 22:03:06.275
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-11-03 22:03:06.460
+!MESSAGE Log4j initialized with config file D:\Documents\CESE\RTOS1\RTOS1\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-11-03 22:03:17.628
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-11-05 09:12:59.732 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-11-05 09:13:14.015
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-11-05 09:13:14.132
+!MESSAGE Log4j initialized with config file D:\Documents\CESE\RTOS1\RTOS1\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-11-05 09:13:28.966
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-05 09:18:22.366
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-05 09:18:22.366
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-05 09:18:22.366
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-05 09:18:22.381
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-05 09:18:51.333
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-05 09:18:51.333
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-05 09:18:51.333
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-05 09:18:51.333
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-05 09:18:51.933
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-05 09:18:51.948
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-05 09:18:51.948
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-05 09:18:51.948
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-05 09:19:17.266
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-05 09:19:17.266
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-05 09:19:17.266
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-05 09:19:17.266
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-05 09:19:17.649
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-05 09:19:17.649
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-05 09:19:17.649
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-05 09:19:17.665
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-05 09:20:38.933
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-05 09:20:38.933
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-05 09:20:38.933
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-05 09:20:38.933
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-05 09:20:39.549
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-05 09:20:39.549
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-05 09:20:39.549
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-05 09:20:39.549
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-05 09:23:27.283
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-05 09:23:27.283
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-05 09:23:27.283
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-05 09:23:27.283
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-05 09:23:27.599
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-05 09:23:27.599
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-05 09:23:27.599
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-05 09:23:27.599
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-05 09:29:13.433
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-05 09:29:13.433
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-05 09:29:13.433
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-05 09:29:13.433
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-05 09:29:34.200
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-05 09:29:34.200
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-05 09:29:34.200
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-05 09:29:34.200
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-05 09:29:37.699
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-05 09:29:37.699
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-05 09:29:37.699
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-05 09:29:37.699
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-05 09:29:37.800
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-05 09:29:37.800
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-05 09:29:37.800
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-05 09:29:37.800
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-05 09:35:44.833
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-05 09:35:44.833
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-05 09:35:44.833
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-05 09:35:44.833
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-05 09:35:45.299
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-05 09:35:45.299
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-05 09:35:45.299
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-05 09:35:45.299
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-05 09:38:32.016
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-05 09:38:32.016
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-05 09:38:32.016
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-05 09:38:32.016
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-05 09:38:54.616
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-05 09:38:54.616
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-05 09:38:54.616
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-05 09:38:54.616
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-05 09:39:33.882
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-05 09:39:33.882
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-05 09:39:33.882
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-05 09:39:33.882
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-05 09:42:02.766
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-05 09:42:02.766
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-05 09:42:02.766
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-05 09:42:02.766
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-05 09:42:02.933
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-05 09:42:02.933
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-05 09:42:02.933
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-05 09:42:02.933
+!MESSAGE Project is null
