@@ -1671,3 +1671,59 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-05 09:42:02.933
 !MESSAGE Project is null
+!SESSION 2022-11-05 12:36:37.394 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-11-05 12:36:56.411
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-11-05 12:36:56.559
+!MESSAGE Log4j initialized with config file D:\Documents\CESE\RTOS1\RTOS1\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-11-05 12:37:10.869
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-11-13 09:49:56.229 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\Documents\CESE\RTOS1\RTOS1
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-11-13 09:50:02.045
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-11-13 09:50:02.172
+!MESSAGE Log4j initialized with config file D:\Documents\CESE\RTOS1\RTOS1\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-11-13 09:50:09.535
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-13 09:52:11.401
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-13 09:52:11.401
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-13 09:52:11.401
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-13 09:52:11.485
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-13 09:52:43.351
+!MESSAGE Indexed 'freertos_app_Example4_6' (42 sources, 147 headers) in 6,6 sec: 14.639 declarations; 77.434 references; 2 unresolved inclusions; 152 syntax errors; 153 unresolved names (0,17 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-13 09:53:04.385
+!MESSAGE Indexed 'Practica4' (0 sources, 0 headers) in 0,001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-13 09:53:09.435
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-13 09:53:09.435
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-13 09:53:09.435
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica3 overlaps the location of another project: 'Practica3'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-13 09:53:09.435
+!MESSAGE Project is null
