@@ -64,6 +64,7 @@
 #include "app.h"
 #include "task_Button.h"
 #include "task_Led.h"
+#include "app_Resources.h"
 
 // ------ Macros and definitions ---------------------------------------
 
@@ -75,6 +76,10 @@ TaskHandle_t xTaskLedHandle;
 /* Declare a variable of type xSemaphoreHandle.  This is used to reference the
  * semaphore that is used to synchronize a task with other task. */
 SemaphoreHandle_t BinarySemaphoreHandle;
+
+SemaphoreHandle_t mutex;
+
+ledFlag_t led_blink;
 
 // ------ internal functions declaration -------------------------------
 
@@ -100,6 +105,9 @@ void appInit( void )
 
 	/* The binary semaphore is created. */
 	vSemaphoreCreateBinary( BinarySemaphoreHandle );
+
+	/* The mutex semaphore is created. */
+	mutex = xSemaphoreCreateMutex();
 
     /* Check the binary semaphore was created successfully */
 	configASSERT( BinarySemaphoreHandle != NULL );

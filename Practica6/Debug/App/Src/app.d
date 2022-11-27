@@ -51,7 +51,8 @@ App/Src/app.o: ../App/Src/app.c ../Core/Inc/main.h \
  D:/Documents/CESE/RTOS1/RTOS1/Practica6/Supporting_Functions/Inc/supporting_Functions.h \
  D:/Documents/CESE/RTOS1/RTOS1/Practica6/App/Inc/app.h \
  D:/Documents/CESE/RTOS1/RTOS1/Practica6/App/Inc/task_Button.h \
- D:/Documents/CESE/RTOS1/RTOS1/Practica6/App/Inc/task_Led.h
+ D:/Documents/CESE/RTOS1/RTOS1/Practica6/App/Inc/task_Led.h \
+ D:/Documents/CESE/RTOS1/RTOS1/Practica6/App/Inc/app_Resources.h
 ../Core/Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:
@@ -106,3 +107,4 @@ D:/Documents/CESE/RTOS1/RTOS1/Practica6/Supporting_Functions/Inc/supporting_Func
 D:/Documents/CESE/RTOS1/RTOS1/Practica6/App/Inc/app.h:
 D:/Documents/CESE/RTOS1/RTOS1/Practica6/App/Inc/task_Button.h:
 D:/Documents/CESE/RTOS1/RTOS1/Practica6/App/Inc/task_Led.h:
+D:/Documents/CESE/RTOS1/RTOS1/Practica6/App/Inc/app_Resources.h:

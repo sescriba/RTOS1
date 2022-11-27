@@ -54,7 +54,18 @@
 // ------ macros -------------------------------------------------------
 
 // ------ typedef ------------------------------------------------------
+ typedef enum	ledFlag_e{ Blinking, NotBlinking } ledFlag_t;
 
+ typedef struct
+ {
+ 	GPIO_TypeDef*	LDX_GPIO_Port;
+ 	uint16_t		LDX_Pin;
+ 	GPIO_PinState	ledState;
+ 	ledFlag_t		ledFlag;
+ 	TickType_t 		ledTickCnt;
+ } LDX_Config_t;
+
+ extern LDX_Config_t LDX_Config[];
 // ------ external data declaration ------------------------------------
 /* Used to hold the handle of TaskTest. */
 extern TaskHandle_t xTaskButtonHandle;
@@ -63,6 +74,8 @@ extern TaskHandle_t xTaskLedHandle;
 /* Declare a variable of type xSemaphoreHandle.  This is used to reference the
  * semaphore that is used to synchronize a task with other task. */
 extern SemaphoreHandle_t BinarySemaphoreHandle;
+extern SemaphoreHandle_t mutex;
+extern ledFlag_t led_blink;
 
 // ------ external functions declaration -------------------------------
 

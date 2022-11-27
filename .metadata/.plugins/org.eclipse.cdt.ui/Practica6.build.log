@@ -1,10 +1,17 @@
-10:47:28 **** Incremental Build of configuration Debug for project Practica6 ****
+14:21:21 **** Incremental Build of configuration Debug for project Practica6 ****
 make -j8 all 
+arm-none-eabi-gcc "../App/Src/app.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I"D:/Documents/CESE/RTOS1/RTOS1/Practica6/Supporting_Functions/Inc" -I"D:/Documents/CESE/RTOS1/RTOS1/Practica6/App/Inc" -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"App/Src/app.d" -MT"App/Src/app.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "App/Src/app.o"
+arm-none-eabi-gcc -o "Practica6.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Documents\CESE\RTOS1\RTOS1\Practica6\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Practica6.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Practica6.elf
+ 
 arm-none-eabi-size   Practica6.elf 
+arm-none-eabi-objdump -h -S  Practica6.elf  > "Practica6.list"
    text	   data	    bss	    dec	    hex	filename
-  29348	    192	  19296	  48836	   bec4	Practica6.elf
+  29540	    188	  19308	  49036	   bf8c	Practica6.elf
 Finished building: default.size.stdout
  
+Finished building: Practica6.list
+ 
 
-10:47:29 Build Finished. 0 errors, 0 warnings. (took 341ms)
+14:21:22 Build Finished. 0 errors, 0 warnings. (took 1s.273ms)
 

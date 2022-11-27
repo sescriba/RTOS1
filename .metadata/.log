@@ -2289,3 +2289,267 @@ org.eclipse.core.runtime.CoreException: attempt to set description for a project
 
 !ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-21 10:49:45.918
 !MESSAGE Project is null
+!SESSION 2022-11-24 19:06:17.347 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-11-24 19:06:36.172
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-11-24 19:06:36.325
+!MESSAGE Log4j initialized with config file D:\Documents\CESE\RTOS1\RTOS1\.metadata\.log4j.xml
+
+!ENTRY org.eclipse.core.jobs 4 2 2022-11-24 19:06:55.379
+!MESSAGE An internal error occurred during: "Searching for Binaries (Practica5)".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.core.CCorePlugin.getCProjectDescription(CCorePlugin.java:881)
+	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigInfoFactory2$ScannerConfigInfoSet.load(ScannerConfigInfoFactory2.java:102)
+	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigInfoFactory2$ScannerConfigInfoSet.<init>(ScannerConfigInfoFactory2.java:96)
+	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigInfoFactory2.createInfoSet(ScannerConfigInfoFactory2.java:1373)
+	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigProfileManager.createScannerConfigBuildInfo2Set(ScannerConfigProfileManager.java:223)
+	at org.eclipse.cdt.build.internal.core.scannerconfig2.CfgScannerConfigInfoFactory2$CfgInfo.getContainer(CfgScannerConfigInfoFactory2.java:118)
+	at org.eclipse.cdt.build.internal.core.scannerconfig2.CfgScannerConfigInfoFactory2$CfgInfo.createMap(CfgScannerConfigInfoFactory2.java:144)
+	at org.eclipse.cdt.build.internal.core.scannerconfig2.CfgScannerConfigInfoFactory2$CfgInfo.getInfo(CfgScannerConfigInfoFactory2.java:83)
+	at org.eclipse.cdt.build.internal.core.scannerconfig.CfgDiscoveredPathManager.getContextInfo(CfgDiscoveredPathManager.java:433)
+	at org.eclipse.cdt.build.internal.core.scannerconfig.CfgDiscoveredPathManager.getContextInfo(CfgDiscoveredPathManager.java:418)
+	at org.eclipse.cdt.build.internal.core.scannerconfig.CfgDiscoveredPathManager.getDiscoveredInfo(CfgDiscoveredPathManager.java:168)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ProfileInfoProvider.getEntryValues(ProfileInfoProvider.java:68)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.BuildEntryStorage.getDiscoveredEntries(BuildEntryStorage.java:203)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.BuildEntryStorage.putEntriesToLevel(BuildEntryStorage.java:193)
+	at org.eclipse.cdt.core.settings.model.util.AbstractEntryStorage.initCache(AbstractEntryStorage.java:74)
+	at org.eclipse.cdt.core.settings.model.util.AbstractEntryStorage.getEntries(AbstractEntryStorage.java:37)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.BuildLanguageData.getEntries(BuildLanguageData.java:163)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultLanguageData.getEntriesToCopy(CDefaultLanguageData.java:100)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultLanguageData.createStore(CDefaultLanguageData.java:91)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultLanguageData.copySettingsFrom(CDefaultLanguageData.java:84)
+	at org.eclipse.cdt.internal.core.settings.model.CLanguageSettingCache.copySettingsFrom(CLanguageSettingCache.java:49)
+	at org.eclipse.cdt.internal.core.settings.model.CLanguageSettingCache.<init>(CLanguageSettingCache.java:38)
+	at org.eclipse.cdt.internal.core.settings.model.CFolderDescriptionCache.copyLanguageData(CFolderDescriptionCache.java:82)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultFolderData.copyDataFrom(CDefaultFolderData.java:60)
+	at org.eclipse.cdt.internal.core.settings.model.CFolderDescriptionCache.<init>(CFolderDescriptionCache.java:40)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.copyFolderData(CConfigurationDescriptionCache.java:242)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultConfigurationData.copySettingsFrom(CDefaultConfigurationData.java:117)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:154)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:510)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:240)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:427)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:409)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:403)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:396)
+	at org.eclipse.cdt.core.CCorePlugin.getProjectDescription(CCorePlugin.java:1464)
+	at org.eclipse.cdt.internal.core.settings.model.ConfigBasedPathEntryStore.getIndexCfg(ConfigBasedPathEntryStore.java:271)
+	at org.eclipse.cdt.internal.core.settings.model.ConfigBasedPathEntryStore.getRawPathEntries(ConfigBasedPathEntryStore.java:112)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreProxy.getRawPathEntries(PathEntryStoreProxy.java:102)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getRawPathEntries(PathEntryManager.java:666)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:557)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:530)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:514)
+	at org.eclipse.cdt.core.model.CoreModel.getResolvedPathEntries(CoreModel.java:955)
+	at org.eclipse.cdt.internal.core.model.CProject.getResolvedPathEntries(CProject.java:404)
+	at org.eclipse.cdt.internal.core.model.CProject.getOutputEntries(CProject.java:517)
+	at org.eclipse.cdt.internal.core.model.CProject.isOnOutputEntry(CProject.java:568)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:386)
+	at org.eclipse.cdt.internal.core.model.BinaryRunner$Visitor.visit(BinaryRunner.java:229)
+	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
+	at org.eclipse.cdt.internal.core.model.BinaryRunner$1.run(BinaryRunner.java:121)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.workbench 4 2 2022-11-24 19:06:55.412
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.resources.WorkspaceRoot.findContainersForLocationURI(WorkspaceRoot.java:79)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.findContainersForLocationURI(WorkspaceRoot.java:72)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.findContainersForLocation(WorkspaceRoot.java:67)
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.getBuildFullPath(ManagedBuildManager.java:3781)
+	at org.eclipse.cdt.managedbuilder.internal.core.Builder.getDefaultOutputSettings(Builder.java:2757)
+	at org.eclipse.cdt.managedbuilder.internal.core.Builder.getOutputEntries(Builder.java:2741)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.BuildBuildData.getOutputDirectories(BuildBuildData.java:58)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultBuildData.copySettingsFrom(CDefaultBuildData.java:58)
+	at org.eclipse.cdt.internal.core.settings.model.CBuildSettingCache.<init>(CBuildSettingCache.java:45)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.copyBuildData(CConfigurationDescriptionCache.java:247)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultConfigurationData.copySettingsFrom(CDefaultConfigurationData.java:110)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:154)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:510)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:240)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:427)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:409)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:403)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:396)
+	at org.eclipse.cdt.internal.core.model.CProject.computeSourceRoots(CProject.java:610)
+	at org.eclipse.cdt.internal.core.model.CProject.computeChildren(CProject.java:631)
+	at org.eclipse.cdt.internal.core.model.CProject.buildStructure(CProject.java:595)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.Openable.openParent(Openable.java:241)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:253)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.BinaryContainer.getElementInfo(BinaryContainer.java:71)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.BinaryContainer.getBinaries(BinaryContainer.java:47)
+	at com.st.stm32cube.ide.mcu.buildanalyzer.BuildAnalytics.getFiles(BuildAnalytics.java:516)
+	at com.st.stm32cube.ide.mcu.buildanalyzer.BuildAnalytics.getBinaryFiles(BuildAnalytics.java:490)
+	at com.st.stm32cube.ide.mcu.buildanalyzer.BuildAnalytics.looksForBinaries(BuildAnalytics.java:398)
+	at com.st.stm32cube.ide.mcu.buildanalyzer.BuildAnalytics.getInstance(BuildAnalytics.java:376)
+	at com.st.stm32cube.ide.mcu.buildanalyzer.BuildAnalytics.earlyStartup(BuildAnalytics.java:88)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.Workbench$40.run(Workbench.java:2667)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2022-11-24 19:06:55.413
+!MESSAGE An internal error occurred during: "Executing the early startup extensions".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.runtime.InternalPlatform.lambda$11(InternalPlatform.java:366)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705)
+	at org.eclipse.core.internal.runtime.InternalPlatform.getLog(InternalPlatform.java:361)
+	at org.eclipse.core.runtime.Plugin.getLog(Plugin.java:237)
+	at org.eclipse.ui.internal.WorkbenchPlugin.log(WorkbenchPlugin.java:743)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.handleException(EarlyStartupRunnable.java:71)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:83)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench$40.run(Workbench.java:2667)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2022-11-27 13:50:58.758 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\Documents\CESE\RTOS1\RTOS1
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-11-27 13:51:07.104
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-11-27 13:51:07.228
+!MESSAGE Log4j initialized with config file D:\Documents\CESE\RTOS1\RTOS1\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-11-27 13:51:24.791
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-27 13:52:45.626
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-27 13:52:45.626
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-27 13:52:45.626
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica5 overlaps the location of another project: 'Practica5'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-27 13:52:45.628
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-27 14:11:44.911
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-27 14:11:44.911
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-27 14:11:44.911
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica6 overlaps the location of another project: 'Practica6'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-27 14:11:44.912
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-27 14:12:30.988
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-27 14:12:30.988
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-27 14:12:30.988
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica6 overlaps the location of another project: 'Practica6'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-27 14:12:30.988
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-27 14:15:29.093
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-27 14:15:29.093
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-27 14:15:29.093
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica6 overlaps the location of another project: 'Practica6'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-27 14:15:29.093
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-27 14:16:11.983
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-27 14:16:11.983
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-27 14:16:11.983
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica6 overlaps the location of another project: 'Practica6'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-27 14:16:11.984
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-27 14:17:03.718
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-27 14:17:03.718
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-27 14:17:03.718
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica6 overlaps the location of another project: 'Practica6'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-27 14:17:03.722
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-27 14:18:20.166
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-27 14:18:20.166
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-27 14:18:20.166
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica6 overlaps the location of another project: 'Practica6'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-27 14:18:20.167
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-27 14:19:18.432
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-27 14:19:18.432
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-27 14:19:18.432
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica6 overlaps the location of another project: 'Practica6'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-27 14:19:18.433
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-27 14:20:39.632
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-27 14:20:39.632
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-27 14:20:39.632
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica6 overlaps the location of another project: 'Practica6'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-27 14:20:39.633
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-27 14:21:21.025
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-27 14:21:21.025
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-27 14:21:21.025
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica6 overlaps the location of another project: 'Practica6'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-27 14:21:21.025
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-11-27 14:21:21.359
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-11-27 14:21:21.359
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-11-27 14:21:21.359
+!MESSAGE D:\Documents\CESE\RTOS1\RTOS1\Practica6 overlaps the location of another project: 'Practica6'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-11-27 14:21:21.360
+!MESSAGE Project is null

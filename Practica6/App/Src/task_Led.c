@@ -96,7 +96,7 @@ void vTaskLed( void *pvParameters )
 {
 	/*  Declare & Initialize Task Function variables for argument, led, button and task */
 	LDX_Config_t * ptr = (LDX_Config_t *) pvParameters;
-	ledFlag_t lReceivedValue;
+//	ledFlag_t lReceivedValue;
 
 	TickType_t xLastWakeTime;
 
@@ -119,37 +119,43 @@ void vTaskLed( void *pvParameters )
     /* As per most tasks, this task is implemented in an infinite loop. */
 	for( ;; )
 	{
+
 		/* Check Led Flag */
 		if( ptr->ledFlag == Blinking )
 		{
 			/* Check, Update and Print Led State */
-		   	if( ptr->ledState == GPIO_PIN_RESET )
-		   	{
-		   		ptr->ledState = GPIO_PIN_SET;
-            	vPrintTwoStrings( pcTaskName, pcTextForTask_LDXTOn );
-		   	}
-	    	else
-	    	{
-	    		ptr->ledState = GPIO_PIN_RESET;
-            	vPrintTwoStrings( pcTaskName, pcTextForTask_LDXTOff );
-		   	}
+			if( ptr->ledState == GPIO_PIN_RESET )
+			{
+				ptr->ledState = GPIO_PIN_SET;
+				vPrintTwoStrings( pcTaskName, pcTextForTask_LDXTOn );
+			}
+			else
+			{
+				ptr->ledState = GPIO_PIN_RESET;
+				vPrintTwoStrings( pcTaskName, pcTextForTask_LDXTOff );
+			}
+
 			/* Update HW Led State */
-		   	HAL_GPIO_WritePin( ptr->LDX_GPIO_Port, ptr->LDX_Pin, ptr->ledState );
+			HAL_GPIO_WritePin( ptr->LDX_GPIO_Port, ptr->LDX_Pin, ptr->ledState );
 		}
 
 		/* Check Binary Semaphore */
 		if( xSemaphoreTake( BinarySemaphoreHandle, (portTickType) 0) == pdTRUE )
 		{
-        	/* Check, Update and Print Led Flag */
-			if( ptr->ledFlag == NotBlinking )
+			xSemaphoreTake( mutex, (portTickType) 0 );
 			{
-				lReceivedValue = Blinking;
+				/* Check, Update and Print Led Flag */
+				if( ptr->ledFlag == NotBlinking )
+				{
+					led_blink = Blinking;
+				}
+				else
+				{
+					led_blink = NotBlinking;
+				}
+				ptr->ledFlag = led_blink;
 			}
-			else
-			{
-				lReceivedValue = NotBlinking;
-			}
-			ptr->ledFlag = lReceivedValue;
+			xSemaphoreGive( mutex );
         	vPrintTwoStrings( pcTaskName, pcTextForTask_BinSemTaken );
 		}
 		/* We want this task to execute exactly every 250 milliseconds. */
