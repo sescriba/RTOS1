@@ -1,0 +1,19 @@
+15:04:56 **** Incremental Build of configuration Debug for project Examen1 ****
+make -j8 all 
+arm-none-eabi-gcc "../App/Src/task_A.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I"D:/Documents/CESE/RTOS1/RTOS1/Examen1/Supporting_Functions/Inc" -I"D:/Documents/CESE/RTOS1/RTOS1/Examen1/App/Inc" -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"App/Src/task_A.d" -MT"App/Src/task_A.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "App/Src/task_A.o"
+arm-none-eabi-gcc "../App/Src/task_B.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I"D:/Documents/CESE/RTOS1/RTOS1/Examen1/Supporting_Functions/Inc" -I"D:/Documents/CESE/RTOS1/RTOS1/Examen1/App/Inc" -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"App/Src/task_B.d" -MT"App/Src/task_B.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "App/Src/task_B.o"
+arm-none-eabi-gcc "../App/Src/task_Test.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I"D:/Documents/CESE/RTOS1/RTOS1/Examen1/Supporting_Functions/Inc" -I"D:/Documents/CESE/RTOS1/RTOS1/Examen1/App/Inc" -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"App/Src/task_Test.d" -MT"App/Src/task_Test.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "App/Src/task_Test.o"
+arm-none-eabi-gcc -o "Examen1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Documents\CESE\RTOS1\RTOS1\Examen1\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Examen1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Examen1.elf
+ 
+arm-none-eabi-size   Examen1.elf 
+arm-none-eabi-objdump -h -S  Examen1.elf  > "Examen1.list"
+   text	   data	    bss	    dec	    hex	filename
+  31832	    232	  19336	  51400	   c8c8	Examen1.elf
+Finished building: default.size.stdout
+ 
+Finished building: Examen1.list
+ 
+
+15:04:58 Build Finished. 0 errors, 0 warnings. (took 1s.433ms)
+

@@ -1,0 +1,21 @@
+19:37:56 **** Incremental Build of configuration Debug for project Examen2 ****
+make -j8 all 
+arm-none-eabi-gcc "../App/Src/task_C.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I"D:/Documents/CESE/RTOS1/RTOS1/Examen2/Supporting_Functions/Inc" -I"D:/Documents/CESE/RTOS1/RTOS1/Examen2/App/Inc" -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I"D:/Documents/CESE/RTOS1/RTOS1/Examen2/App/Src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"App/Src/task_C.d" -MT"App/Src/task_C.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "App/Src/task_C.o"
+../App/Src/task_C.c: In function 'vTaskC':
+../App/Src/task_C.c:103:21: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  103 |       vPrintString( (char*)patente );
+      |                     ^
+arm-none-eabi-gcc -o "Examen2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Documents\CESE\RTOS1\RTOS1\Examen2\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Examen2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Examen2.elf
+ 
+arm-none-eabi-size   Examen2.elf 
+arm-none-eabi-objdump -h -S  Examen2.elf  > "Examen2.list"
+   text	   data	    bss	    dec	    hex	filename
+  32160	    220	  19332	  51712	   ca00	Examen2.elf
+Finished building: default.size.stdout
+ 
+Finished building: Examen2.list
+ 
+
+19:37:57 Build Finished. 0 errors, 1 warnings. (took 1s.150ms)
+
